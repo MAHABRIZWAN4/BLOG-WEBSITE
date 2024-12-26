@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 
 export default function Contact() {
@@ -20,7 +20,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-gray-600 dark:text-gray-300 mb-6 text-center">
-            We'd love to hear from you! Fill out the form below to get in touch.
+            We&#39;d love to hear from you! Fill out the form below to get in touch.
           </p>
           <form className="space-y-4">
             <div>

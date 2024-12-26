@@ -1,8 +1,8 @@
+
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function About() {
   return (
@@ -20,16 +20,20 @@ export default function About() {
           />
           <h1 className="text-4xl font-extrabold text-indigo-600 mb-4 animate-pulse">About Me</h1>
           <p className="text-gray-700 text-lg leading-7 text-center dark:text-white">
-            Hey there! I’m <strong>Mahab Rizwan</strong>, a passionate web developer on a mission to build beautiful, intuitive, and responsive websites. I believe in the power of blending creativity with technology to craft digital experiences that are not only functional but also delightful to use. Whether it's a sleek design, smooth animations, or seamless user interfaces, I’m here to make sure every project I work on leaves a lasting impression. Let’s create something amazing together!
+            Hey there! I’m <strong>Mahab Rizwan</strong>, a passionate web developer on a mission to build beautiful, intuitive, and responsive websites. I believe in the power of blending creativity with technology to craft digital experiences that are not only functional but also delightful to use. Whether it&apos;s a sleek design, smooth animations, or seamless user interfaces, I’m here to make sure every project I work on leaves a lasting impression. Let&apos;s create something amazing together!
           </p>
 
           <div className="mt-6">
-            <Link href="https://github.com/MAHABRIZWAN4" target="_blank"><Button className="mx-1 text-sm" variant="outline">
-              <FaGithub /> Github
-            </Button></Link>
-            <Link href="https://www.linkedin.com/in/mahab-rizwan-831095341/" target="_blank"><Button className="mx-1 text-sm" variant="outline">
-              <FaLinkedin /> Linkedin
-            </Button></Link>
+            <Link href="https://github.com/MAHABRIZWAN4" target="_blank">
+              <Button className="mx-1 text-sm" variant="outline">
+                <FaGithub /> Github
+              </Button>
+            </Link>
+            <Link href="https://www.linkedin.com/in/mahab-rizwan-831095341/" target="_blank">
+              <Button className="mx-1 text-sm" variant="outline">
+                <FaLinkedin /> Linkedin
+              </Button>
+            </Link>
           </div>
 
           <h2 className="text-3xl font-bold text-indigo-600 mt-10 mb-6 animate-pulse">My Skills</h2>
@@ -72,7 +76,7 @@ export default function About() {
             Mahab&apos;s Coding Journey
           </h1>
           <p className="text-gray-700 text-lg leading-8 text-center mb-4 dark:text-white">
-            My coding journey began with the *Governor Sindh Initiative for Artificial Intelligence, Web 3.0 & Metaverse*&#39;s transformative opportunity that introduced me to the world of cutting-edge technologies.
+            My coding journey began with the *Governor Sindh Initiative for Artificial Intelligence, Web 3.0 &amp; Metaverse*&#39;s transformative opportunity that introduced me to the world of cutting-edge technologies.
             From mastering the fundamentals of HTML, CSS, and TypeScript, diving into the depths of Next.js, and embracing the power of Figma-UI/UX and Sanity, every milestone has shaped my passion.
           </p>
           <p className="text-gray-700 text-lg leading-7 text-center dark:text-white">
