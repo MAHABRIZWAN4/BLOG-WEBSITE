@@ -79,9 +79,11 @@ const Homepage = () => {
 
   </div>
   <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
-    <img
+    <Image
       src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg"
       alt="blog illustration"
+      height={100}
+      width={100}
       className="w-full h-full max-w-md mx-auto"
     />
   </div>

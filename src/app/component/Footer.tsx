@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook} from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -43,7 +43,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="mt-12 border-t border-gray-700 pt-6 text-center">
           <p className="text-sm text-gray-400">
-            Mahab'sBlog &copy; 2024. All rights reserved.
+            Mahab&apos;s Blog &copy; 2024. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,15 +1,18 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import parse from 'html-react-parser';
 
 interface Heading {
   text: string | null;
   id: string;
 }
 
+
 interface OnThisPageProps {
   htmlContent: string; // Explicitly define the type for htmlContent
 }
+
+
+
 
 const OnThisPage: React.FC<OnThisPageProps> = ({ htmlContent }) => {
   const [headings, setHeadings] = useState<Heading[]>([]); // Define the type for headings state
@@ -41,6 +44,3 @@ const OnThisPage: React.FC<OnThisPageProps> = ({ htmlContent }) => {
 };
 
 export default OnThisPage;
-
-
-{/* <div className="absolute top-24 right-0 w-64 p-4 bg-white shadow-lg rounded-lg dark:bg-gray-800"> */}
