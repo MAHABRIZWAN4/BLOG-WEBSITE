@@ -40,7 +40,7 @@ const Navbar = () => {
     return (
         <nav className="p-4 bg-background/50 sticky top-0 backdrop-blur border-b z-10">
             <LoadingBar
-                color="#f11946"
+                color="#22c55e"
                 progress={progress}
                 onLoaderFinished={() => setProgress(0)}
             />
