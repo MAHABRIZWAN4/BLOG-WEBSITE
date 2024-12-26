@@ -11,7 +11,7 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePrettyCode from "rehype-pretty-code";
 import { transformerCopyButton } from "@rehype-pretty/transformers";
-
+import OnThisPage from '@/app/component/OnThisPage'
 // Generate Static Params
 export async function generateStaticParams() {
   const contentDir = path.join(process.cwd(), "content");
@@ -72,6 +72,8 @@ export default async function Page({ params }: { params: { slug: string } }) {
         className="mt-6 prose dark:prose-invert"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       ></div>
+      <OnThisPage htmlContent={htmlContent} />
+      
     </div>
   );
 }
