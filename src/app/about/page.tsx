@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -10,9 +11,11 @@ export default function About() {
         
         {/* About Me Section */}
         <div className="shadow-2xl h-auto rounded-lg p-8 mt-9 w-11/12 md:w-8/12 lg:w-11/12 mb-10 flex flex-col items-center">
-  <img
+  <Image
     src="/about.webp"
     alt="Mahab"
+    width={100}
+    height={100}
     className="rounded-full w-32 h-32 mb-4 border-4 border-indigo-500 shadow-lg"
   />
   <h1 className="text-4xl font-extrabold text-indigo-600 mb-4 animate-pulse">About Me</h1>
@@ -61,9 +64,11 @@ export default function About() {
         {/* Coding Journey Section */}
      {/* Coding Journey Section */}
 <div className="shadow-2xl rounded-lg p-8 w-11/12 md:w-8/12 lg:w-11/12 flex flex-col items-center">
-  <img
+  <Image
     src="/2.png"
     alt="Coding Journey"
+    height={100}
+    width={100}
     className="rounded-lg w-72 h-40 mb-4 border-4 border-blue-500 shadow-lg transition-transform duration-300 hover:scale-105"
   />
   <h1 className="text-4xl font-extrabold text-blue-700 mb-4 animate-pulse">
