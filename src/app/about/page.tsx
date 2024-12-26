@@ -72,8 +72,8 @@ export default function About() {
             Mahab&apos;s Coding Journey
           </h1>
           <p className="text-gray-700 text-lg leading-8 text-center mb-4 dark:text-white">
-            My coding journey began with the *Governor Sindh Initiative for Artificial Intelligence, Web 3.0 & Metaverse*&#39;a transformative opportunity that introduced me to the world of cutting-edge technologies.
-            From mastering the fundamentals of HTML , CSS And Typescript, diving into the depths of Next-js, and embracing the power of Figma-UI/UX And Sanity, every milestone has shaped my passion.
+            My coding journey began with the *Governor Sindh Initiative for Artificial Intelligence, Web 3.0 & Metaverse*&#39;s transformative opportunity that introduced me to the world of cutting-edge technologies.
+            From mastering the fundamentals of HTML, CSS, and TypeScript, diving into the depths of Next.js, and embracing the power of Figma-UI/UX and Sanity, every milestone has shaped my passion.
           </p>
           <p className="text-gray-700 text-lg leading-7 text-center dark:text-white">
             This journey has been an exciting adventure, filled with challenges and triumphs. Each line of code brings me closer to creating impactful projects that make a difference.
