@@ -35,7 +35,8 @@ import { transformerCopyButton } from '@rehype-pretty/transformers'
 // Uper wale blog ko ko dynamically blog kerna he mujhe :
 import fs from "fs";
 import matter from "gray-matter";
-import { notFound } from "next/navigation";
+
+
 import OnThisPage from '@/app/component/OnThisPage'
 
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
@@ -56,14 +57,6 @@ const filePath = `content/${(await params).slug}.md`
 
 
 
-
-// Agar 404 aay to kyia kerna he mujhe :
-
-
-if (!fs.existsSync(filePath)) {
-  notFound()
-  return  
-}
 
 // File ko read kerna he mujhe :
 const fileContent = fs.readFileSync(filePath, "utf-8")
